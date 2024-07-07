@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import bass from './bass.svg';
 import './App.css';
 import jhillaFloating from './floatingjhilla.png';
 import museum from './museum.png';
