@@ -10,7 +10,7 @@ function App() {
       <link href="./output.css" rel="stylesheet"/>
       <div class='grid place-items-center'>
         <div class="relative h-[67vw] w-[80vw] flex">
-          <img class="absolute inset-0 object-contain" src={museum} />
+          <img class="absolute inset-0 object-contain" src={museum} alt='Museum'/>
           <div class="absolute inset-0 right-[8vw]">
             <p class="text-[17vw] drop-shadow-2xl font-extrabold font-sans text-brown-50 italic">
               JHILLA
@@ -19,7 +19,7 @@ function App() {
               BASS.
             </p>
           </div>
-          <img class="absolute inset-0 object-contain" src={jhillaFloating} />
+          <img class="absolute inset-0 object-contain" src={jhillaFloating} alt='J hilla'/>
         </div>
       <p class="text-4xl font-light m-5">
         jhilla@jhilla.org
