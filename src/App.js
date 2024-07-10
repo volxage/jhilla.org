@@ -1,7 +1,7 @@
 import './App.css';
 import jhillaFloating from './floatingjhilla.png';
 import museum from './museum.png';
-import {BlurOnScroll, BlurSlideOnScroll,SlideOnScroll} from './animateOnScroll.tsx';
+import {BlurOnScroll, SlideOnScroll} from './animateOnScroll.tsx';
 
 function App() {
   return (
