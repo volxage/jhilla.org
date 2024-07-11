@@ -5,7 +5,7 @@ import {BlurOnScroll, SlideOnScroll} from './animateOnScroll.tsx';
 
 function App() {
   return (
-    <header className="App bg-gradient-to-b from-brown-50 to-white">
+    <header className="App">
       <link href="output.css" rel="stylesheet"/>
       <p className="opacity-30" />
       <div className='grid place-items-center'>
@@ -38,7 +38,9 @@ function App() {
         </div>
     </BlurOnScroll>
     <BlurOnScroll reappear={true} threshold={0.5}>
-    <button className="bg-brown-50 text-4xl font-light p-3 m-5 rounded">TuneTracker</button>
+    <a href="https://github.com/volxage/tunetracker" target="_blank" rel="noopener nreferrer">
+      <button className="bg-brown-50 text-4xl font-light p-3 m-5 rounded">TuneTracker</button>
+    </a>
     </BlurOnScroll>
       </div>
     </header>
