@@ -38,7 +38,7 @@ function App() {
         </div>
     </BlurOnScroll>
     <BlurOnScroll reappear={true} threshold={0.5}>
-    <a href="https://github.com/volxage/tunetracker" target="_blank" rel="noopener nreferrer">
+    <a href="https://github.com/volxage/tunetracker" target="_blank" rel="noopener noreferrer">
       <button className="bg-brown-50 text-4xl font-light p-3 m-5 rounded">TuneTracker</button>
     </a>
     </BlurOnScroll>
