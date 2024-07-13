@@ -92,7 +92,7 @@ const SlideOnScroll = ({ children, reappear, threshold = 0.5, reverse=false }: P
   if(reverse === false){
     return (
       <>
-        <div ref={containerRef} className={`transition duration-1000 ${isVisible ? "opacity-100 transform-none" : "-translate-x-40"}`}>
+        <div ref={containerRef} className={`transition duration-1000 ${isVisible ? "opacity-100 transform-none" : "-translate-x-60"}`}>
           {children}
         </div>
       </>
@@ -101,7 +101,7 @@ const SlideOnScroll = ({ children, reappear, threshold = 0.5, reverse=false }: P
     console.log("Reversing animation")
     return (
       <>
-        <div ref={containerRef} className={`transition duration-1000 ${isVisible ? "opacity-100 transform-none" : "translate-x-40"}`}>
+        <div ref={containerRef} className={`transition duration-1000 ${isVisible ? "opacity-100 transform-none" : "translate-x-60"}`}>
           {children}
         </div>
       </>
