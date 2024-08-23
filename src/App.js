@@ -3,8 +3,12 @@ import jhillaFloating from './floatingjhilla.png';
 import museum from './museum.png';
 import overlay from './JHILLA-Layers_0000_AdobeStock_467160063-(1).png'
 import {BlurOnScroll, SlideOnScroll} from './animateOnScroll.tsx';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    document.title = "JHilla";
+  })
   return (
     <header className="App">
       <link href="output.css" rel="stylesheet"/>
