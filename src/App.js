@@ -1,7 +1,7 @@
 import './App.css';
-import jhillaFloating from './floatingjhilla.png';
-import museum from './museum.png';
-import overlay from './JHILLA-Layers_0000_AdobeStock_467160063-(1).png'
+import jhillaFloating from './floatingjhilla.webp';
+import museum from './museum.webp';
+import overlay from './JHILLA-Layers_0000_AdobeStock_467160063-(1).webp'
 import {BlurOnScroll, SlideOnScroll} from './animateOnScroll.tsx';
 import { useEffect } from 'react';
 
