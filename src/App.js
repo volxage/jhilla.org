@@ -41,14 +41,25 @@ function App() {
         <BlurOnScroll reappear={true}>
             <div className="grid place-items-center">
               <p className="text-xl w-4/5">
-                Jonathan Hilliard is a bassist/computer scientist from the Philadelphia area. He is studying Jazz and Computer Science with the Michigan State University faculty. He is currently developing an app named TuneTracker, whose progress can be monitored below.
+                Jonathan Hilliard is a bassist/computer scientist from the Philadelphia area. He is studying Jazz and Computer Science with the Michigan State University faculty. He is currently developing an app named TuneTracker, which is an app to keep track of which songs you know and how well you know them.
               </p>
             </div>
         </BlurOnScroll>
         <BlurOnScroll reappear={true} threshold={0.5}>
-        <a href="https://github.com/volxage/tunetracker" target="_blank" rel="noopener noreferrer">
-          <button className="bg-brown-50 text-4xl font-light p-3 m-8 rounded">TuneTracker</button>
-        </a>
+          <div>
+              <a href="https://tunetracker.jhilla.org" target="_blank" rel="noopener noreferrer">
+                <button className="bg-brown-50 text-4xl font-light p-3 m-8 rounded">Web</button>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.tunetracker" target="_blank" rel="noopener noreferrer">
+                <button className="bg-brown-50 text-4xl font-light p-3 m-8 rounded">Google Play</button>
+              </a>
+              <a href="https://apps.apple.com/us/app/tunetracker-songbook/id6743944173" target="_blank" rel="noopener noreferrer">
+                <button className="bg-brown-50 text-4xl font-light p-3 m-8 rounded">iOS</button>
+              </a>
+              <a href="https://github.com/volxage/tunetracker" target="_blank" rel="noopener noreferrer">
+                <button className="bg-brown-50 text-4xl font-light p-3 m-8 rounded">GitHub</button>
+              </a>
+          </div>
         </BlurOnScroll>
       </div>
     </header>
