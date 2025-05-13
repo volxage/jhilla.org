@@ -1,5 +1,5 @@
 import './App.css';
-import {BlurOnScroll, SlideOnScroll} from './animateOnScroll.tsx';
+import {BlurOnScroll} from './animateOnScroll.tsx';
 import { useEffect } from 'react';
 
 function TTButtons(){

@@ -1,5 +1,4 @@
 import './App.css';
-import {BlurOnScroll, SlideOnScroll} from './animateOnScroll.tsx';
 import { useEffect } from 'react';
 
 export default function Jazz(){
