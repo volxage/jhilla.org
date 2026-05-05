@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        blu: {
+          100: '#1f5aa0',
+          500: '#030424'
+        },
         brown: {
           50: '#dcbb84',
           60: '#bc9990'

@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
   })
   return (
-    <header className="App">
+    <header className="App h-screen bg-orange-100">
       <link href="output.css" rel="stylesheet"/>
       <div className='grid place-items-center'>
         <div className="relative h-[82.7vw] w-[100vw] flex">
@@ -40,7 +40,7 @@ function App() {
         <BlurOnScroll reappear={true}>
           <div className="grid place-items-center">
             <p className="text-xl w-4/5">
-              Jonathan Hilliard is a bassist/programmer from the Philadelphia area. He is studying Jazz and Computer Science with the Michigan State University faculty. He is currently developing an app named TuneTracker, which is an app to keep track of which songs you know and how well you know them.
+              Jonathan Hilliard is a bassist/programmer from the Philadelphia area. He graduated from Michigan State University with bachelor's degrees Jazz Studies and Computer Science. He is currently developing an app named TuneTracker, which is an app to keep track of which songs you know and how well you know them.
             </p>
             <div>
               <a href="/cs">

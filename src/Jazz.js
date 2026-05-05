@@ -1,4 +1,5 @@
 import './App.css';
+import DarkBass from './DarkBass.webp';
 import { useEffect } from 'react';
 
 export default function Jazz(){
@@ -6,19 +7,20 @@ export default function Jazz(){
     document.title = "JHilla: Jazz Bass";
   })
   return(
-    <header className='App'>
-      <div className="bg-orange-100 p-10 grid place-items-center">
+    <header className='App h-screen bg-blu-50'>
+      <div className="bg-blu-500 p-10 grid place-items-center">
         <a href="/">
-          <p className="text-[4vw] font-black font-sans text-brown-50 italic underline">
+          <p className="text-[4vw] font-black font-sans text-blu-100 italic underline">
             JHILLA
           </p>
         </a>
-        <p className="text-[8vw] drop-shadow-2xl font-black font-sans text-brown-50 italic">
+        <p className="text-[8vw] drop-shadow-2xl font-black font-sans text-blu-100 italic">
           JAZZ BASS
         </p>
-        <p>Jonathan Hilliard is studying jazz bass at Michigan State University with Professor Rodney Whitaker. The rest of the exceptional faculty that he has studied under includes Michael Dease, Xavier Davis, Randy Napoleon, Anthony Stanco, and Randle "Uncle G" Gelispie. From his time at MSU, he has had the opportuntiy to play with guest artists such as John Clayton, Vincent Chandler, Jazzmeia Horn, Ryan Keberle, and others. He has played with students and faculty at jazz clubs like Blue LLama Jazz Club, and Smalls.</p>
+        <img src={DarkBass}/>
+        <p className='text-blu-100'>Jonathan Hilliard studied jazz bass at Michigan State University with Professor Rodney Whitaker. The rest of the exceptional faculty that he has studied under includes Michael Dease, Xavier Davis, Randy Napoleon, Erena Terakubo, Anthony Stanco, Randle "Uncle G" Gelispie, and Carmen Bradford. From his time at MSU, he has had the opportuntiy to play with guest artists such as John Clayton, Vincent Chandler, Harvey Mason, Jazzmeia Horn, Ryan Keberle, and others. He has played with students and faculty at jazz clubs like Blue LLama Jazz Club, and Smalls. <a href='https://press.jazz.org/press/2026/01/jazz-at-lincoln-center-announces-2026-national-collegiate-jazz-championship-winning-bands/'>In 2026, he was awarded "Outstanding Bass" in the National Collegiate Jazz Champtionship</a> (formerly the Jack Rudin competition.)</p>
 
-        <div className='w-fit text-left bg-orange-200'>
+        <div className='w-fit text-left bg-blu-100 p-2'>
           <p className='font-bold'>Mentors (Chronological):</p>
           <p className='italic text-sm pb-2'>Italics for brief lesson(s)/guest artist residency</p>
           <p>Justin Sekelewski</p>
@@ -29,16 +31,18 @@ export default function Jazz(){
           <p>Randy Napoleon</p>
           <p>Michael Dease</p>
           <p className='italic'>John Clayton</p>
-        </div>
-        <div className='w-fit text-left bg-orange-200'>
+          <p>Erena Terakubo</p>
+          <p className='italic'>Harvey Mason</p>
           <p className='font-bold'>Played alongside:</p>
           <p>Xavier Davis</p>
           <p>Randy Napoleon</p>
           <p>Toni Micelli</p>
           <p>Michael Dease</p>
           <p>Walter Blanding</p>
+          <p>Arcoiris Sandoval</p>
+          <p>Alvin Waddles</p>
+          <p>Nate Wynn</p>
         </div>
-        <p></p>
       </div>
     </header>
   );
