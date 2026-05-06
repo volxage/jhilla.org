@@ -40,28 +40,35 @@ export default function CompSci(){
         <p className="text-[4vw] drop-shadow-2xl font-black font-sans">
           TuneTracker
         </p>
-        <p>TuneTracker is a tool to keep track of the songs you know, and how well you know them. You can be as thorough as you want to. You can keep a simple song list and mark your general confidence on each song. Or, you can go deeper and mark your confidence based on the melody/lyrics, you can mark when you last played a song with just a few presses, and you can sort through your list with all of these details to find which song you need to practice or which song is performance ready.</p>
+        <BlurOnScroll>
+          <p>TuneTracker is a tool to keep track of the songs you know, and how well you know them. You can be as thorough as you want to. You can keep a simple song list and mark your general confidence on each song. Or, you can go deeper and mark your confidence based on the melody/lyrics, you can mark when you last played a song with just a few presses, and you can sort through your list with all of these details to find which song you need to practice or which song is performance ready.</p>
+        </BlurOnScroll>
         <TTButtons/>
-        <p>Jonathan's work on TuneTracker sets him apart from most of his peers. The reason for this is the complexity of the project; it requires a web application, a mobile application, and a server with a database integration and a secure authentication system. Each piece of the puzzle was created using industry-standard tools, giving Jonathan a very comprehensive and well balanced skill set.</p>
-        <div className='w-fit, p-8'>
-          <div className="bg-orange-200 p-4">
-            <p className='font-bold'>Mobile Application</p>
-            <p>Cross platform mobile application for both iOS and Android.</p>
-            <p className="italic">Typescript, React Native, Realm, StyledComponents, Github, etc.</p>
+        <BlurOnScroll>
+          <p>Jonathan's work on TuneTracker sets him apart from most of his peers. The reason for this is the complexity of the project; it requires a web application, a mobile application, and a server with a database integration and a secure authentication system. Each piece of the puzzle was created using industry-standard tools, giving Jonathan a very comprehensive and well balanced skill set.</p>
+        </BlurOnScroll>
+        <BlurOnScroll>
+          <div className='w-fit, p-8'>
+            <div className="bg-orange-200 p-4">
+              <p className='font-bold'>Mobile Application</p>
+              <p>Cross platform mobile application for both iOS and Android.</p>
+              <p className="italic">Typescript, React Native, Realm, StyledComponents, Github, etc.</p>
+            </div>
+            <div className="bg-orange-200 p-4">
+              <p className="font-bold">Web Application</p>
+              <p>(Beta) tools for users to edit song information for the database</p>
+              <p className="italic">Javascript, React, Tailwind, etc.</p>
+            </div>
+            <div className="bg-orange-300 p-4">
+              <p className='font-bold'>Server</p>
+              <p>A server/REST API that handles user authentication and tune publishing/changes.</p>
+              <p className='italic'>Node, Sequelize, MariaDB (fork of MySQL), Google auth, Apple auth, etc.</p>
+            </div>
           </div>
-          <div className="bg-orange-200 p-4">
-            <p className="font-bold">Web Application</p>
-            <p>(Beta) tools for users to edit song information for the database</p>
-            <p className="italic">Javascript, React, Tailwind, etc.</p>
-          </div>
-          <div className="bg-orange-300 p-4">
-            <p className='font-bold'>Server</p>
-            <p>A server/REST API that handles user authentication and tune publishing/changes.</p>
-            <p className='italic'>Node, Sequelize, MariaDB (fork of MySQL), Google auth, Apple auth, etc.</p>
-          </div>
-        </div>
-        <p className='text-sm italic'>The code for TuneTracker is only publically available for the <a href='https://github.com/volxage/tunetracker' className='underline'>Mobile Application</a>. Code for the Web Application and Server may be sent to employers upon request for verification purposes.</p>
-
+        </BlurOnScroll>
+        <BlurOnScroll>
+          <p className='text-sm italic'>The code for TuneTracker is only publically available for the <a href='https://github.com/volxage/tunetracker' className='underline'>Mobile Application</a>. Code for the Web Application and Server may be sent to employers upon request for verification purposes.</p>
+        </BlurOnScroll>
       </div>
     </header>
   );
