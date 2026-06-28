@@ -41,6 +41,7 @@ export default function Jazz(){
             <p className='italic'>John Clayton</p>
             <p>Erena Terakubo</p>
             <p className='italic'>Harvey Mason</p>
+            <p className='italic'>Tim Warfield</p>
             <p className='font-bold'>Played alongside:</p>
             <p>Xavier Davis</p>
             <p>Randy Napoleon</p>
@@ -50,6 +51,7 @@ export default function Jazz(){
             <p>Arcoiris Sandoval</p>
             <p>Alvin Waddles</p>
             <p>Nate Wynn</p>
+            <p>Curtis Taylor</p>
           </div>
           </BlurOnScroll>
       </div>
